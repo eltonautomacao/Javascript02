@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro programa em js</title>
+     <style>
+        body{
+            background-color: rgba(0, 0, 255, 0.486);
+            color: white;
+            font: normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro programa</h1> 
+    <p>Paragrafo unico</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um numero:'))
+        var n2 = Number(window.prompt('Digite outro numero:'))
+        var s = n1+n2 
+        //window.alert('A soma dos valores é ' + s) // Concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)// Template String usado com crase
+    </script>
+</body>
+</html>
